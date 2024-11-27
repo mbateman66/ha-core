@@ -18,6 +18,9 @@
     "--security-opt",
     "label=disable"
   ],
+  "mounts": [
+    "source=C:/Users/mbate/Dropbox/Personal/Matt/Development/Home Assistant/ha-core-www-dev,target=/workspaces/ha-core/config/www/dev,type=bind,consistency=cached"
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
